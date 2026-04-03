@@ -1,0 +1,30 @@
+[
+  { "id": 1, "bookingId": "BK-101", "itemName": "Masala Dosa", "cuisine": "South Indian", "price": 180, "timestamp": "2026-03-01T08:15:00Z" },
+  { "id": 2, "bookingId": "BK-105", "itemName": "Idli Sambar (2 pc)", "cuisine": "South Indian", "price": 120, "timestamp": "2026-03-01T08:45:00Z" },
+  { "id": 3, "bookingId": "BK-202", "itemName": "Aloo Paratha with Curd", "cuisine": "North Indian", "price": 210, "timestamp": "2026-03-01T09:30:00Z" },
+  { "id": 4, "bookingId": "BK-101", "itemName": "Filter Coffee", "cuisine": "South Indian", "price": 90, "timestamp": "2026-03-01T10:00:00Z" },
+  { "id": 5, "bookingId": "BK-304", "itemName": "Paneer Butter Masala", "cuisine": "North Indian", "price": 380, "timestamp": "2026-03-01T13:15:00Z" },
+  { "id": 6, "bookingId": "BK-304", "itemName": "Butter Naan", "cuisine": "North Indian", "price": 60, "timestamp": "2026-03-01T13:16:00Z" },
+  { "id": 7, "bookingId": "BK-405", "itemName": "Chicken Dum Biryani", "cuisine": "North Indian", "price": 450, "timestamp": "2026-03-01T13:45:00Z" },
+  { "id": 8, "bookingId": "BK-110", "itemName": "Club Sandwich", "cuisine": "Continental", "price": 280, "timestamp": "2026-03-01T16:20:00Z" },
+  { "id": 9, "bookingId": "BK-215", "itemName": "Pasta Carbonara", "cuisine": "Continental", "price": 420, "timestamp": "2026-03-01T20:10:00Z" },
+  { "id": 10, "bookingId": "BK-215", "itemName": "Garlic Bread", "cuisine": "Continental", "price": 150, "timestamp": "2026-03-01T20:12:00Z" },
+  { "id": 11, "bookingId": "BK-501", "itemName": "Dal Makhani", "cuisine": "North Indian", "price": 320, "timestamp": "2026-03-02T21:00:00Z" },
+  { "id": 12, "bookingId": "BK-501", "itemName": "Jeera Rice", "cuisine": "North Indian", "price": 180, "timestamp": "2026-03-02T21:05:00Z" },
+  { "id": 13, "bookingId": "BK-602", "itemName": "Medu Vada", "cuisine": "South Indian", "price": 140, "timestamp": "2026-03-03T07:45:00Z" },
+  { "id": 14, "bookingId": "BK-703", "itemName": "Margherita Pizza", "cuisine": "Continental", "price": 490, "timestamp": "2026-03-03T19:30:00Z" },
+  { "id": 15, "bookingId": "BK-804", "itemName": "Tandoori Chicken (Half)", "cuisine": "North Indian", "price": 350, "timestamp": "2026-03-04T20:45:00Z" },
+  
+
+
+  { "id": 991, "bookingId": "BK-980", "itemName": "Upma", "cuisine": "South Indian", "price": 110, "timestamp": "2026-03-30T08:20:00Z" },
+  { "id": 992, "bookingId": "BK-985", "itemName": "English Breakfast Tray", "cuisine": "Continental", "price": 550, "timestamp": "2026-03-30T09:10:00Z" },
+  { "id": 993, "bookingId": "BK-988", "itemName": "Malai Kofta", "cuisine": "North Indian", "price": 340, "timestamp": "2026-03-30T13:30:00Z" },
+  { "id": 994, "bookingId": "BK-988", "itemName": "Laccha Paratha", "cuisine": "North Indian", "price": 70, "timestamp": "2026-03-30T13:32:00Z" },
+  { "id": 995, "bookingId": "BK-990", "itemName": "Fish and Chips", "cuisine": "Continental", "price": 480, "timestamp": "2026-03-30T20:00:00Z" },
+  { "id": 996, "bookingId": "BK-991", "itemName": "Chicken Chettinad", "cuisine": "South Indian", "price": 390, "timestamp": "2026-03-30T20:15:00Z" },
+  { "id": 997, "bookingId": "BK-991", "itemName": "Appam (2 pc)", "cuisine": "South Indian", "price": 80, "timestamp": "2026-03-30T20:17:00Z" },
+  { "id": 998, "bookingId": "BK-995", "itemName": "Veg Caesar Salad", "cuisine": "Continental", "price": 290, "timestamp": "2026-03-30T21:00:00Z" },
+  { "id": 999, "bookingId": "BK-998", "itemName": "Hyderabadi Mutton Biryani", "cuisine": "South Indian", "price": 520, "timestamp": "2026-03-30T21:30:00Z" },
+  { "id": 1000, "bookingId": "BK-999", "itemName": "Gulab Jamun (2 pc)", "cuisine": "North Indian", "price": 100, "timestamp": "2026-03-30T22:10:00Z" }
+]
