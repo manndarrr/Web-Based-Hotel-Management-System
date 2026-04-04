@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { orderDataset } from '@/data/orderDataset';
 import { useHotel } from '@/context/HotelContext';
 import { useState, useEffect, useMemo } from 'react';
 import { getDb } from '@/services/database';
@@ -451,9 +452,21 @@ function SmartInsightsTab({ foodOrders, inventory, updateInventory }: {
   inventory: any[];
   updateInventory: (id: number, quantity: number) => void;
 }) {
-  const pressureData = useMemo(() => calculateIngredientPressure(foodOrders, inventory), [foodOrders, inventory]);
-  const volatilityData = useMemo(() => calculateVolatility(foodOrders), [foodOrders]);
-  const forecastData = useMemo(() => generateDemandForecast(foodOrders), [foodOrders]);
+  // Convert the 1,000-order dataset to FoodOrder format for analytics
+  const datasetOrders = useMemo(() => orderDataset.map(o => ({
+    id: o.id,
+    bookingId: parseInt(o.bookingId.replace('BK-', '')),
+    itemName: o.itemName,
+    price: o.price,
+    timestamp: o.timestamp,
+  })), []);
+
+  // Merge dataset with live orders for comprehensive analytics
+  const allOrders = useMemo(() => [...datasetOrders, ...foodOrders], [datasetOrders, foodOrders]);
+
+  const pressureData = useMemo(() => calculateIngredientPressure(allOrders, inventory), [allOrders, inventory]);
+  const volatilityData = useMemo(() => calculateVolatility(allOrders), [allOrders]);
+  const forecastData = useMemo(() => generateDemandForecast(allOrders), [allOrders]);
   const availabilityData = useMemo(() => getMenuAvailability(inventory), [inventory]);
 
   const criticalItems = pressureData.filter(p => p.riskLevel === 'Critical' || p.riskLevel === 'High');
@@ -542,7 +555,7 @@ function SmartInsightsTab({ foodOrders, inventory, updateInventory }: {
           <TrendingUp className="h-5 w-5 text-primary" />
           Predicted Demand — Next 24 Hours
         </h4>
-        <p className="text-xs text-muted-foreground mb-4">Based on {foodOrders.length.toLocaleString()} historical orders</p>
+        <p className="text-xs text-muted-foreground mb-4">Based on {allOrders.length.toLocaleString()} historical orders (1,000 synthetic + {foodOrders.length} live)</p>
         <ResponsiveContainer width="100%" height={250}>
           <AreaChart data={forecastData}>
             <defs>
