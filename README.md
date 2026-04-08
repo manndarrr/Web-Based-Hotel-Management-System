@@ -48,7 +48,7 @@ Unlike standard booking systems, this portal integrates **Recharts** to provide 
 ---
 
 ## Author
-**Mandar Deshmukh** *Computer Science & Engineering* [LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/your-username)
+**Mandar Deshmukh** *Computer Science & Engineering* [LinkedIn](https://linkedin.com/in/your-profile)
 
 ---
 <div align="center">
