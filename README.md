@@ -42,7 +42,7 @@ Unlike standard booking systems, this portal integrates **Recharts** to provide 
 
 ## Dashboard Preview
 <p align="center">
-  <img src="https://via.placeholder.com/850x450.png?text=Hotel+Admin+Portal+&+Analytics+Dashboard" width="850" title="Admin Portal Overview">
+  <img src="Dashboard.png" width="850" title="Admin Portal Overview">
 </p>
 
 ---
