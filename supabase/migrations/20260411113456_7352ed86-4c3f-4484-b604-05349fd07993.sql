@@ -1,0 +1,1 @@
+ALTER TABLE public.cost_queries ADD COLUMN room_id bigint DEFAULT NULL;

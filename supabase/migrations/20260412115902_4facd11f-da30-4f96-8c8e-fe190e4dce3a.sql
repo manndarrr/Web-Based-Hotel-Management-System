@@ -1,0 +1,1 @@
+ALTER TABLE public.booking_rooms RENAME TO booked_rooms;

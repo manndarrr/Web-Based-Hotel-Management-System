@@ -1,0 +1,1 @@
+ALTER TABLE public.bookings ALTER COLUMN room_id TYPE text USING room_id::text;

@@ -1,0 +1,1 @@
+ALTER TABLE public.bookings ADD COLUMN services_payment_status text NOT NULL DEFAULT 'Pending';

@@ -1,0 +1,1 @@
+ALTER TABLE public.food_orders ADD COLUMN room_code text;
