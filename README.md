@@ -40,7 +40,7 @@ Unlike standard booking systems, this portal integrates **Recharts** to provide 
 
 ---
 
-## Preview
+## System Overview
 
 ### Dashboard
 The Dashboard (Landing Page) serves as the entry point of the Hotel Management System, providing users with a visually rich and intuitive interface. It highlights the brand identity, showcases premium services, and offers quick navigation options such as “Explore Destinations” and “Discover Hotels.” The page is designed to enhance user engagement through attractive visuals and clear call-to-action buttons, guiding users seamlessly into the booking workflow.
@@ -48,11 +48,15 @@ The Dashboard (Landing Page) serves as the entry point of the Hotel Management S
   <img src="Overview/Dashboard.png" width="850" title="Admin Portal Overview"> 
 </p>
 
+---
+
 ### Destinations
 The Destinations page showcases various travel locations such as Srinagar, Goa, Jaipur, Kerala, and Agra. Each destination is represented with high-quality images and brief descriptions to provide users with an overview of the location. This module enables users to explore different regions and acts as the starting point for location-based hotel discovery and booking within the system.
 <p align="center">
   <img src="Overview/Destinations.png" width="850" title="Admin Portal Overview"> 
 </p>
+
+---
 
 ### Hotels
 The Hotels page displays a collection of available hotels across multiple locations in a structured card-based layout. Each card includes hotel images, descriptions, ratings, and navigation options to view rooms. This page acts as an intermediate layer between destination selection and room booking, helping users compare and choose hotels based on preferences and location.
@@ -64,6 +68,88 @@ The Hotels page displays a collection of available hotels across multiple locati
 The “Choose Your Room” page allows users to view and select from different room categories such as Deluxe, Executive Suite, and Royal Suite. Each room is presented with pricing, amenities, and a booking option. This module ensures a smooth decision-making process by clearly displaying available options and enabling direct booking, thereby connecting the user interface with backend room availability logic.
 <p align="center">
   <img src="Overview/ChooseYourRoom.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Room Booking
+The Room Booking page enables users to finalize their reservation by selecting check-in and check-out dates along with the number of guests and rooms. It also displays selected room information such as type, price, and location. This page acts as a critical step in the booking workflow, collecting user inputs and validating availability before confirming the reservation.
+<p align="center">
+  <img src="Overview/BookRooms.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Book Your Stay
+The Book Your Stay page provides a centralized form where users can initiate the booking process by selecting a location, room type, dates, and guest details. It serves as the primary input interface connecting user preferences with backend booking logic. The structured layout ensures ease of use and accurate data collection for processing reservations.
+<p align="center">
+  <img src="Overview/BookNow.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Sign Up
+The Sign Up page allows new users to create an account or login if account already exist by providing personal details such as name, email, phone number, and password. It also includes an option for quick authentication using Google. This module ensures secure user onboarding and enables personalized services like booking history tracking and profile management.
+<p align="center">
+  <img src="Overview/SignUp.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+## Employee Dashboard
+
+### Bookings
+The Bookings module allows staff to monitor and manage all customer reservations in real time. It displays booking details such as guest information, room type, stay duration, and status (Pending, Booked, Active, Completed). Employees can accept or reject booking requests, activate stays, and mark them as completed, ensuring efficient reservation handling and operational control.
+<p align="center">
+  <img src="Overview/Bookings.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Customer Data
+The Customer Data module provides a structured view of guests with active or recent stays. It includes details such as room allocation, total bill, outstanding amount, and payment status. This feature enables staff to track customer financials, manage payments, and maintain accurate billing records within the system.
+<p align="center">
+  <img src="Overview/CustomerData.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Rooms
+The Rooms module displays all available rooms categorized by type and location. Each room is represented with its number, price, and availability status (Available/Active). This module helps staff efficiently allocate rooms, monitor occupancy, and manage hotel capacity in real time.
+<p align="center">
+  <img src="Overview/Rooms.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Food Orders
+The Food Orders module tracks all in-room dining requests made by guests. It displays order details, items purchased, total bill, and payment status. This feature allows staff to monitor food service operations, manage billing, and calculate total revenue generated from dining services.
+<p align="center">
+  <img src="Overview/FoodOrders.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Cost Queries
+The Cost Queries module manages additional service requests such as extra beds, room cleaning, or extended stays. Staff can review, accept, or reject these requests, and approved costs are automatically added to the customer’s bill. This ensures transparency and efficient handling of additional service charges.
+<p align="center">
+  <img src="Overview/CostQueries.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Inventory
+The Inventory module tracks stock levels of kitchen and operational items such as grains, vegetables, dairy, and meat. It highlights low-stock items through alerts, helping staff maintain optimal inventory levels. This module ensures smooth hotel operations by preventing shortages and enabling timely restocking.
+<p align="center">
+  <img src="Overview/Inventory.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Analytics
+The Analytics module provides data-driven insights into hotel operations using visualizations such as charts and graphs. It includes metrics like total orders, revenue, cuisine distribution, and demand trends. Additionally, the predictive engine forecasts future demand and identifies stock-out risks, enabling smarter decision-making and efficient resource planning.
+<p align="center">
+  <img src="Overview/Analytics.png" width="850" title="Admin Portal Overview"> 
 </p>
 
 ---
