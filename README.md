@@ -154,6 +154,90 @@ The Analytics module provides data-driven insights into hotel operations using v
 
 ---
 
+## Customer Profile
+
+### Personal Information
+The Personal Information module allows users to view their basic profile details such as full name, email address, and phone number. It provides a centralized section for managing personal data, ensuring easy access and a personalized user experience within the system.
+<p align="center">
+  <img src="Overview/Personalinfo_CustProfile.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Booking Status
+The Booking Status module enables users to track their current and past reservations. It displays booking ID, location, room details, stay duration, assigned rooms, and current status (Active/Completed). Users can also initiate actions such as ordering food directly from this section.
+<p align="center">
+  <img src="Overview/BookingStatus_CustProfile.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Update Stay
+The Update Stay module allows users to request additional services during their stay. Options such as extra bed, room cleaning, early check-in, late check-out, and stay extension are available. These requests are sent to staff for approval, and applicable charges are automatically added to the user’s bill.
+<p align="center">
+  <img src="Overview/UpdateStay_CustProfile.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Food Orders
+The Food Orders module provides a detailed history of all in-room dining orders placed by the user. It includes item names, quantities, prices, room number, booking reference, and timestamps. This helps users keep track of their dining expenses and order history.
+<p align="center">
+  <img src="Overview/FoodOrders_CustProfiles.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Payment Status
+The Payment Status module gives a complete overview of the user’s billing information. It shows total bill amount, breakdown of room charges and food expenses, and any outstanding payments. Users can complete pending payments directly through this module.
+<p align="center">
+  <img src="Overview/PaymentStatus_CustProfile.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Update Password
+The Update Password module allows users to securely change their account password. It includes fields for entering and confirming a new password, ensuring account security and user control over authentication credentials.
+<p align="center">
+  <img src="Overview/UpdatePassword_CustProfile.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+## Food Menu
+
+### North Indian
+The North Indian Menu showcases popular dishes like paneer butter masala, dal makhani, naan, and tandoori items. It includes categorized listings with visually appealing cards, pricing details, and quick add-to-cart functionality, enabling users to conveniently order their favorite meals.
+<p align="center">
+  <img src="Overview/FoodMenu_NorthIndian.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### South Indian
+The South Indian Menu section displays a variety of traditional dishes such as dosa, idli, uttapam, and biryani. Each item is presented with an image, price, and an “Add to Cart” option. The interface allows users to easily browse and select dishes based on their preferences, enhancing the in-room dining experience.
+<p align="center">
+  <img src="Overview/FoodMenu_SouthIndian.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Continental
+The Continental Menu provides a selection of international dishes such as pasta, burgers, sandwiches, and desserts. It offers a clean and organized layout with item descriptions, pricing, and quick ordering options, catering to diverse customer preferences.
+<p align="center">
+  <img src="Overview/FoodMenu_Continental.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
+### Food Cart
+The Food Cart module allows users to review and manage their selected items before placing an order. It includes item quantity controls, price breakdown, and room selection for delivery. Users can modify their cart in real-time and confirm their order using the “Place Order” option, ensuring a seamless and efficient ordering process.
+<p align="center">
+  <img src="Overview/FoodCart.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+---
+
 ## Author
 **Mandar Deshmukh** *Computer Science & Engineering* [LinkedIn](https://linkedin.com/in/your-profile)
 
