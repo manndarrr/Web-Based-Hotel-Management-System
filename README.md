@@ -134,7 +134,7 @@ The Analytics module provides data-driven insights into hotel operations using v
 
 ---
 
-## Customer Profile
+## Customer Profile Overview
 
 ### Personal Information
 The Personal Information module allows users to view their basic profile details such as full name, email address, and phone number. It provides a centralized section for managing personal data, ensuring easy access and a personalized user experience within the system.
@@ -174,7 +174,7 @@ The Update Password module allows users to securely change their account passwor
 
 ---
 
-## Food Menu
+## Food Menu Overview
 
 ### North Indian
 The North Indian Menu showcases popular dishes like paneer butter masala, dal makhani, naan, and tandoori items. It includes categorized listings with visually appealing cards, pricing details, and quick add-to-cart functionality, enabling users to conveniently order their favorite meals.
