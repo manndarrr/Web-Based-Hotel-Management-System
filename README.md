@@ -40,11 +40,30 @@ Unlike standard booking systems, this portal integrates **Recharts** to provide 
 
 ---
 
-## System Overview
+## Preview
 
 ### Dashboard
+The Dashboard (Landing Page) serves as the entry point of the Hotel Management System, providing users with a visually rich and intuitive interface. It highlights the brand identity, showcases premium services, and offers quick navigation options such as “Explore Destinations” and “Discover Hotels.” The page is designed to enhance user engagement through attractive visuals and clear call-to-action buttons, guiding users seamlessly into the booking workflow.
 <p align="center">
   <img src="Overview/Dashboard.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+### Destinations
+The Destinations page showcases various travel locations such as Srinagar, Goa, Jaipur, Kerala, and Agra. Each destination is represented with high-quality images and brief descriptions to provide users with an overview of the location. This module enables users to explore different regions and acts as the starting point for location-based hotel discovery and booking within the system.
+<p align="center">
+  <img src="Overview/Destinations.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+### Hotels
+The Hotels page displays a collection of available hotels across multiple locations in a structured card-based layout. Each card includes hotel images, descriptions, ratings, and navigation options to view rooms. This page acts as an intermediate layer between destination selection and room booking, helping users compare and choose hotels based on preferences and location.
+<p align="center">
+  <img src="Overview/Hotels.png" width="850" title="Admin Portal Overview"> 
+</p>
+
+### Choose Your Room
+The “Choose Your Room” page allows users to view and select from different room categories such as Deluxe, Executive Suite, and Royal Suite. Each room is presented with pricing, amenities, and a booking option. This module ensures a smooth decision-making process by clearly displaying available options and enabling direct booking, thereby connecting the user interface with backend room availability logic.
+<p align="center">
+  <img src="Overview/ChooseYourRoom.png" width="850" title="Admin Portal Overview"> 
 </p>
 
 ---
