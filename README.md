@@ -64,6 +64,8 @@ The Hotels page displays a collection of available hotels across multiple locati
   <img src="Overview/Hotels.png" width="850" title="Admin Portal Overview"> 
 </p>
 
+---
+
 ### Choose Your Room
 The “Choose Your Room” page allows users to view and select from different room categories such as Deluxe, Executive Suite, and Royal Suite. Each room is presented with pricing, amenities, and a booking option. This module ensures a smooth decision-making process by clearly displaying available options and enabling direct booking, thereby connecting the user interface with backend room availability logic.
 <p align="center">
