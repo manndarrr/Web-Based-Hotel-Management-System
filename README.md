@@ -48,8 +48,6 @@ The Home page serves as the entry point of the Hotel Management System, providin
   <img src="Overview/Dashboard.png" width="850" title="Admin Portal Overview"> 
 </p>
 
----
-
 ### Destinations
 The Destinations page showcases various travel locations such as Srinagar, Goa, Jaipur, Kerala, and Agra. Each destination is represented with high-quality images and brief descriptions to provide users with an overview of the location. This module enables users to explore different regions and acts as the starting point for location-based hotel discovery and booking within the system.
 <p align="center">
