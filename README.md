@@ -40,10 +40,10 @@ Unlike standard booking systems, this portal integrates **Recharts** to provide 
 
 ---
 
-## System Overview
+## Dashboard Overview
 
-### Dashboard
-The Dashboard (Landing Page) serves as the entry point of the Hotel Management System, providing users with a visually rich and intuitive interface. It highlights the brand identity, showcases premium services, and offers quick navigation options such as “Explore Destinations” and “Discover Hotels.” The page is designed to enhance user engagement through attractive visuals and clear call-to-action buttons, guiding users seamlessly into the booking workflow.
+### Home
+The Home page serves as the entry point of the Hotel Management System, providing users with a visually rich and intuitive interface. It highlights the brand identity, showcases premium services, and offers quick navigation options such as “Explore Destinations” and “Discover Hotels.” The page is designed to enhance user engagement through attractive visuals and clear call-to-action buttons, guiding users seamlessly into the booking workflow.
 <p align="center">
   <img src="Overview/Dashboard.png" width="850" title="Admin Portal Overview"> 
 </p>
@@ -96,7 +96,7 @@ The Sign Up page allows new users to create an account or login if account alrea
 
 ---
 
-## Employee Dashboard
+## Employee Dashboard Overview
 
 ### Bookings
 The Bookings module allows staff to monitor and manage all customer reservations in real time. It displays booking details such as guest information, room type, stay duration, and status (Pending, Booked, Active, Completed). Employees can accept or reject booking requests, activate stays, and mark them as completed, ensuring efficient reservation handling and operational control.
