@@ -42,7 +42,7 @@ Unlike standard booking systems, this portal integrates **Recharts** to provide 
 
 ## System Overview
 
-###Dashboard
+### Dashboard
 <p align="center">
   <img src="Overview/Dashboard.png" width="850" title="Admin Portal Overview"> 
 </p>
