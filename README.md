@@ -201,7 +201,7 @@ The Food Cart module allows users to review and manage their selected items befo
 ---
 
 ## Author
-**Mandar Deshmukh** *Computer Science & Engineering* [LinkedIn][https://www.linkedin.com/in/manndarrr/]
+**Mandar Deshmukh** *Computer Science & Engineering* [LinkedIn][(https://www.linkedin.com/in/manndarrr/)]
 
 ---
 <div align="center">
